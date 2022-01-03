@@ -9,8 +9,8 @@ h1{
     color: orange;
 }
 section{
-    display: flex
-    
+    display: flex;
+margin-bottom: 50px;
 }
 .half-width{
 width: 50%;
@@ -30,4 +30,20 @@ border-radius: 5px;
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+h2{
+    font-size: 50px;
+}
+.middle-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right ;
+}
+.resume-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
 }
